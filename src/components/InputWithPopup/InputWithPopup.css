@@ -1,0 +1,60 @@
+
+.input-popup-container {
+    color: var(--light1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.input-popup-container .input-popup-label {
+
+}
+
+.input-popup-container .input-popup-btn {
+    border-radius: 10px;
+    border: 2px solid var(--light1);
+    background-color: var(--light2);
+    padding: 0px;
+    text-align: center;
+    outline: none;
+    color: white;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+}
+
+.input-popup-container .input-popup-btn input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    align-self: center;
+}
+
+.input-popup-container .input-popup-btn .inner-button {
+    background: var(--dark2);
+    width: fit-content;
+    height: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border-right: 2px solid var(--light1);
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light1);
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 500px) {
+    .input-popup-container {
+        gap: 15px;
+        justify-content: space-between;
+    }
+    .input-popup-container .input-popup-btn{
+        width: fit-content;
+        flex:1
+    }
+}

@@ -1,0 +1,47 @@
+:root {
+  --dark1: #454955;
+  --dark2: #0D0A0B;
+  --light1:#72B01D;
+  --light2: #3F7D20
+}
+
+@font-face {
+  font-family: Almarai;
+  src: url('/public/fonts/Almarai-Bold.ttf');
+}
+
+body {
+  font-family: Almarai , sans-serif;
+  background-color: var(--dark1);
+}
+
+p {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+h1 {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
